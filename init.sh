@@ -5,5 +5,3 @@ if [ ! -e /bin/cpm ] ; then
 fi
 
 cpm install
-
-local/bin/morbo -l http://*:$PORT "api.psgi"
