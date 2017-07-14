@@ -1,3 +1,3 @@
 #!/bin/sh
-
-perl -Ilib local/bin/morbo -l http://*:$PORT api.psgi
+PERL5LIB=/home/site/wwwroot/locsl/lib
+local/bin/morbo -l http://*:$PORT api.psgi
