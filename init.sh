@@ -4,6 +4,6 @@ if [ ! -e /bin/cpm ] ; then
     chmod +x cpm
 fi
 
-cpm install .
+cpm install
 
 local/bin/morbo -l http://*:$PORT "api.psgi"
