@@ -2,7 +2,6 @@
 if [ ! -e /bin/cpm ] ; then
     curl -sL --compressed https://git.io/cpm > cpm
     chmod +x cpm
-    mv cpm /bin/cpm
 fi
 
 cpm install .
